@@ -1,0 +1,42 @@
+.jumbotron {
+    background-image: url(../img/vitrine.jpg);
+    /* comprime a imagem mantendo sua proporção*/
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.btn-primary {
+    border: none;
+}
+
+.submenu:hover {
+    background-color: rgba(156, 150, 149, 0.925);
+}
+
+.social a[href='http://facebook.com/betterimages'] {
+    background: url(../img/icone-face.png);
+    background-size: 36px 36px
+}
+
+.social a[href='http://twitter.com/betterimages'] {
+    background: url(../img/icone-twitter.png);
+    background-size: 36px 36px
+}
+
+.social a[href='http://instagram.com/betterimages'] {
+    background: url(../img/icone-insta.png);
+    background-size: 36px 36px
+}
+
+.social a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+.social li {
+    display: inline-block;
+    margin-left: 1em;
+}
